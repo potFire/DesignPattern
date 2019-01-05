@@ -1,4 +1,4 @@
-package factory.factoryFunction;
+package factory.factoryFactory;
 
 /**
  * 牛奶生产的标准

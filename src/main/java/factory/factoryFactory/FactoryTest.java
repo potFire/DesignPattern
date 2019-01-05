@@ -1,4 +1,4 @@
-package factory.factoryFunction;
+package factory.factoryFactory;
 
 public class FactoryTest {
 

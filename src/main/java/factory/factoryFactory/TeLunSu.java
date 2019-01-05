@@ -1,4 +1,4 @@
-package factory.factoryFunction;
+package factory.factoryFactory;
 
 /**
  * 特仑苏
