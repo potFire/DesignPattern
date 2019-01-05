@@ -1,4 +1,4 @@
-package creational.simplefactory;
+package factory.simplefactory;
 
 /**
  * 生产Java视频

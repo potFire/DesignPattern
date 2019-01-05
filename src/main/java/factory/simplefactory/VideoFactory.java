@@ -1,4 +1,4 @@
-package creational.simplefactory;
+package factory.simplefactory;
 
 /**
  * 根据类型返回响应的对象
