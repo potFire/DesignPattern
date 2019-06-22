@@ -11,7 +11,7 @@ import java.util.Date;
 public class ProxyTest {
 
     public static void main(String[] args) {
-        try {
+        /*try {
             Order order = new Order();
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
             Date date = sdf.parse("2018/02/01");
@@ -20,6 +20,9 @@ public class ProxyTest {
             ordderService.createOrder(order);
         }catch (Exception e){
 
-        }
+        }*/
+
+        Pay pay = (Pay)new CglibDynamicProxy().getInstance(Pay.class);
+        pay.payOrder();
     }
 }
